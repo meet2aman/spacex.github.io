@@ -1,0 +1,44 @@
+.container{
+    width: 1800px;
+    max-width: 75%;
+    margin: 0 auto;
+}
+.btn{
+    transition: all .5s ease;
+    padding: 0.4rem 0.8rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: var(--pure);
+    border-radius: 20px;
+    transition: ease-in-out all .5s;
+}
+
+
+.btn-primary:hover{
+    color: var(--pure);
+    background-color: transparent;
+    border: 2px solid var(--pure);
+}
+
+section.rocket{
+    background-color: var(--primary);
+}
+.btn-primary{
+    color: var(--dark);
+    background: var(--pure);
+}
+.btn-secondary{
+    background: transparent;
+    color: var(--pure);
+    border-color: var(--pure);
+}
+
+.btn-secondary:hover{
+    color: var(--dark);
+    background: var(--pure);
+
+}
